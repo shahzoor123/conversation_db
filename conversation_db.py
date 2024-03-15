@@ -21,14 +21,9 @@ def Processing_DB(Data):
 
 
 
-def Data(data):
-   
-    return "This is the analyzed output from OpenAI."
-
-
 def ai(user_input):
     print(user_input)
-    Processing_DB(Data)
+    Processing_DB(user_input)
     
 
 
